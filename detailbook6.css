@@ -1,0 +1,134 @@
+header {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+header img {
+    display: flex;
+    justify-content: end;
+    width: 200px;
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content:end;
+    margin-top: 10px;  
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.breadcrumb {
+    background-color: greenyellow;  
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.book {
+    width: calc(30% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid aquamarine;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding: 10px;
+}
+
+.book img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav {
+    display: flex;
+    justify-content:end;
+    margin-top: 10px;  
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 5px;
+    width: 1000px;
+    height: 200px;
+}
+
+.big_image {
+    display: flex;
+    flex: 2;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.big_image image {
+    width: fit-content;
+    height: fit-content;
+    order: 2;
+}
+
+.small_image {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px;
+}
+
+.small_image image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.image {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+}
+ button {
+    color: black;
+    background-color: aquamarine;
+    border-radius: 30px;
+    font-size: 20px;
+ }
